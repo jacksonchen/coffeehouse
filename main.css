@@ -79,15 +79,18 @@ a {
 
 .action {
   padding: 20px 0;
+  display: flex;
+  flex-direction: row;
 }
 
 .button {
   border: 1px solid black;
-  width: 150px;
+  width: 100px;
   text-align: center;
   height: 50px;
   line-height: 50px;
   background-color: #EEE;
+  margin-right: 20px;
 }
 
 .button:hover {
